@@ -1,0 +1,32 @@
+  255  mkdir 20230605-ClaudiaNaranjo
+  256  cd 20230605-ClaudiaNaranjo/
+  257  git init
+  258  git remote add origin https://github.com/ClaudiaLorenaN/20230605-ClaudiaNaranjo.git
+  259  touch comandos.txt main.js index.html
+  260  git add .
+  261  git commit -m "commit 01 de ClaudiaNaranjo"
+  262  git push origin main
+  263  git branch feature
+  264  git checkout feature
+  265  mkdir hardware software seguridadInformatica
+  266  cd seguridadInformatica/
+  267  touch resumen.txt
+  268  cd ..
+  269  cd software/
+  270  touch resumen.txt
+  271  cd ..
+  272  cd hardware/
+  273  touch resumen.txt
+  274  git add .
+  275  git commit -m "commit 02 de ClaudiaNaranjo"
+  276  git status
+  277  cd ..
+  278  git add .
+  279  git commit -m "commit 02 de ClaudiaNaranjo"
+  280  git status
+  281  git push origin feature
+  282  git checkout main
+  283  mv main.js resumenHardware.txt
+  284  mv index.html resumenSoftware.txt
+  285  history 50
+  286  history > comandos.txt
